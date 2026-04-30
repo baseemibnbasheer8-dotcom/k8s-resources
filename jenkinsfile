@@ -98,7 +98,7 @@ pipeline {
         stage('Push Helm Chart') {
             steps {
                 sh """
-                helm push demo-project-chart-0.2.0.tgz oci://registry-1.docker.io/${IMAGE_NAME}
+                helm push demo-project-chart-0.1.0.tgz oci://registry-1.docker.io/${IMAGE_NAME}
                 """
             }
         }
