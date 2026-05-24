@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: bazeemme/my-demo-project-repo
-  tag: latest
+  tag: "7"
   pullPolicy: Always
 
 service:
